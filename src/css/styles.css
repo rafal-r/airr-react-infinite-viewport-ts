@@ -1,0 +1,27 @@
+#root {
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.options {
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 1rem;
+    position: fixed;
+    width: 66%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    z-index: 111;
+}
+.button-wrap {
+    margin-bottom: 1rem;    
+    position: absolute;
+    padding-left: 1rem;
+    bottom: 0;
+    right: left;
+    color: #000;
+    z-index: 111;
+}
+.close-wrap {
+    text-align: right;
+}
